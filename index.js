@@ -1,6 +1,5 @@
 import { pipeline } from "@huggingface/transformers";
 
-// //////////////////////////////
 const transcriber = await pipeline(
   "automatic-speech-recognition",
   "onnx-community/whisper-tiny.en",
@@ -8,7 +7,7 @@ const transcriber = await pipeline(
 );
 
 const msgContainer = document.getElementById("msgTxt");
-console.log(msgContainer);
+
 // Transcribe audio from a URL
 const url = "ray2.m4a";
 msgContainer.innerHTML = "loading...";
