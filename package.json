@@ -1,0 +1,21 @@
+{
+  "name": "transform",
+  "version": "1.0.0",
+  "description": "transformjstest",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start2": "npx http-server",
+    "start": "vite"
+  },
+  "author": "raymond bas",
+  "license": "ISC",
+  "devDependencies": {
+    "@huggingface/transformers": "^3.5.2",
+    "http-server": "^14.1.1",
+    "vite": "^6.3.5"
+  }
+}
